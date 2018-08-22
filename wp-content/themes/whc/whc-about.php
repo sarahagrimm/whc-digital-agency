@@ -18,8 +18,9 @@ get_header();
 ?>
 
     <section>
+        <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 mt-5">
                     
             <?php get_sidebar('1'); ?>
             </div>
@@ -41,7 +42,7 @@ get_header();
             </div>
 
         </div>
-
+        </div>
     </section>
 
 <?php

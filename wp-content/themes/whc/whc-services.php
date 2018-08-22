@@ -51,9 +51,6 @@ get_header();
 
             <?php if($services -> have_posts()):while($services -> have_posts()):$services -> the_post() ?>
             <div class="col-md-4 text-center">
-                <h2>
-                    <?php the_title();?>
-                </h2>
 
                 <div class="img-box">
                     <?php the_post_thumbnail();?>
@@ -65,10 +62,6 @@ get_header();
             </div>
             <?php endwhile; endif; ?>
     
-        </div>
-
-        <div class="ticker">
-        [COUNTER_NUMBER id=93]
         </div>
             <div class="col-md-4">
 
